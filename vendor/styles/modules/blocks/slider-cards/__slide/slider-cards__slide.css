@@ -1,0 +1,16 @@
+.slider-cards__slide {
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F4F4;
+}
+
+@media screen and (max-width: 767px) {
+  .slider-cards__slide {
+    margin-top: 20px;
+    min-width: 284px;
+    max-width: 100%;
+    align-items: center;
+  }
+}
+

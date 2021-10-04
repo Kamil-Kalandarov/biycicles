@@ -1,0 +1,16 @@
+.gallary__content {
+  max-width: 460px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1279px) {
+  .gallary__content {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gallary__content {
+    order: 3;
+  }
+}

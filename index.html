@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./vendor/styles/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Kamil">
+  <meta name="description" content="Как правильно учиться">
+  <title>Велосипеды</title>
+</head>
+<body class="page">
+  <header class="header">
+    <a class="header__link" href="#gallary">Покрытия и градиенты</a>
+    <a class="header__link" href="#bycicles">Велосипеды</a>
+    <a class="header__link" href="#service">Тренировки</a>
+  </header>
+  <main class="content">
+    <section class="lead">
+      <h1 class="title-of-section lead__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
+      <div class="lead__text">
+        <p class="text-content lead__content">
+          Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам
+          – нужно только определиться с выбором велосипеда и отправиться в путь.
+        </p>
+        <button class="lead__button" type="button">Подробнее</button>
+        <a class="lead__link" href="#">Cannondale Systemsix</a>
+      </div>
+      <div class="lead__picture-container">
+        <img class="lead__picture" src="./images/lead-picture.jpg" alt="Грунтовая велотрасса посреди леса">
+      </div>
+      <div class="lead__fade-in-container">
+        <div class="lead__fade-in"></div>
+      </div>
+    </section>
+    <section class="quote">
+      <div class="flex-image">
+        <img class="quote__picture" src="./images/quote-picture.jpg" alt="Дорога посреди поля">
+      </div>
+      <div class="flex-content">
+        <h3 class="quote__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h3>
+        <div class="quote__author">
+          <p class="quote__author-name">Эдди Меркс</p>
+          <p class="quote__author-about">Велогонщик</p>
+        </div>
+      </div>
+    </section>
+    <section id="gallary" class="gallary">
+      <div class="slider">
+        <ul class="slider__wrapper">
+          <li class="slider__slide">
+            <h2 class="title-of-section gallary__title">Шоссе</h2>
+            <p class="text-content gallary__content">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: 
+              будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.
+            </p>
+            <img class="slider__item" src="./images/slider-image-1.jpg" alt="велотрасса">
+          </li>
+          <li class="slider__slide">
+            <h2 class="title-of-section gallary__title">Грэвел</h2>
+            <p class="text-content gallary__content">Грэвел похож на шоссейный велосипед, но конструкция рамы немного отличается, 
+              и на нём стоят более широкие покрышки, всё для того чтобы проехать по лёгкому бездорожью.
+            </p>
+            <img class="slider__item" src="./images/slider-image-2.jpg" alt="велотрасса">
+          </li>
+          <li class="slider__slide">
+            <h2 class="title-of-section gallary__title">ТТ</h2>
+            <p class="text-content gallary__content">ТТ — это велосипед для триатлона или раздельного старта, 
+              гооняют на таком велике только по равнинному асфальту, велик очень быстрые и аэродинамичный.
+            </p>
+            <img class="slider__item" src="./images/slider-image-3.jpg" alt="велотрасса">
+          </li>
+        </ul> 
+      </div>
+      <div class="slider__buttons">
+        <div class="slider__button-prev"></div>
+        <div class="slider__button-next"></div>
+      </div>
+    </section>
+    <section id="bycicles" class="bycicles">
+      <div class="bycicles__navigaation">
+        <h2 class="title-of-section bycicles__title">Велосипеды</h2>
+        <div class="bycicles__buttons">
+          <button class="bycicles__road" type="button" aria-label="шоссейные велосипеды">Шоссе</button>
+          <button class="bycicles__gravel" type="button" aria-label="грэвел велосипеды">Грэвел</button>
+          <button class="bycicles__tt" type="button" aria-label="ТТ велосипеды">TT</button>
+        </div>
+      </div>
+      <select class="bycicles__select">
+        <option value="road">Шоссе</option>
+        <option value="gravel">Грэвел</option>
+        <option value="tt">TT</option>
+      </select>
+      <div class="slider-cards-container">
+      </div>
+    </section>
+    <section id="service" class="service">
+      <h1 class="title-of-section service__title">Тренировки</h1>
+      <p class="text-content service__content">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+          а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
+      <div class="service__links">
+        <a class="service__strava-link" href="https://www.strava.com">Strava</a>
+        <a class="service__komoot-link" href="https://www.komoot.com">Komoot</a>
+      </div>
+      <img class="service__picture" src="./images/service-picture.jpg" alt="Дорога в лесу">
+    </section>
+    <footer class="footer">
+      <h3 class="footer__title">Подпишитесь на рассылку —</h3>
+      <form class="form">
+        <input class="form__input-email" type="email" name="form__input-email" placeholder="Ваш e-mail">
+        <button class="form__button" type="submit">ok</button>
+      </form>
+      <div class="footer__flex">
+        <p class="footer__copyright">&copy; Камиль Каландаров 2021</p>
+        <div class="switch">
+          <div class="switch__off-pic"></div>
+          <div class="switch__off"></div>
+          <div class="switch__on-pic"></div>
+        </div>
+        <img class="footer__logo" src="./images/logo.svg" alt="Логотип">
+      </div>
+    </footer>
+  </main>
+  <template id="slider-template">
+    <div class="slider-cards">
+      <ul class="slider-cards__wrapper">
+      </ul>
+      <div class="slider-cards__pagination"></div>
+    </div>
+  </template>
+  <template id="slide-template">
+    <li class="slider-cards__slide">
+      <img class="slider-cards__image" src="./images/" alt="">
+      <p class="slider-cards__title"></p>
+    </li>
+  </template>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+

@@ -1,0 +1,21 @@
+.bycicles__buttons {
+  max-width: 227px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  gap: 40px;
+  grid-column: 2/3;
+  padding-top: 32px;
+}
+
+@media screen and (max-width: 1023px) {
+  .bycicles__buttons {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bycicles__buttons {
+    display: none;
+  }
+}

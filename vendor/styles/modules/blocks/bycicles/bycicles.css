@@ -1,0 +1,14 @@
+.bycicles {
+  padding: 120px 120px 0;
+  row-gap: 120px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .bycicles {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 120px 18px 0;
+  }
+}

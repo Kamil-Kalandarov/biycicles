@@ -1,0 +1,10 @@
+.quote__picture {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .quote__picture {
+    padding-top: 20px;
+    border-top: 1px solid #E3E3E3;
+  }
+}

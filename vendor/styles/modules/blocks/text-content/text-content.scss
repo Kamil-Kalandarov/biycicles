@@ -1,0 +1,25 @@
+.text-content {
+  font: $textContentDescktop;
+  color: $primaryContentFontColor;
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .text-content {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 1192px) {
+  .text-content {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text-content {
+    line-height: 18px;
+  }
+}

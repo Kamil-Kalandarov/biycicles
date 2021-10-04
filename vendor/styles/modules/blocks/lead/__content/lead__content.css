@@ -1,0 +1,14 @@
+.lead__content {
+  max-width: 460px;
+  max-height: 112px;
+  min-height: 72px;
+  margin: 0;
+  padding: 50px 0;
+
+}
+
+@media screen and (max-width: 767px) {
+  .lead__content {
+    min-width: 284px;
+  }
+}

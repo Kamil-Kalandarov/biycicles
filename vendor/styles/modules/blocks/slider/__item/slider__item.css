@@ -1,0 +1,11 @@
+.slider__item {
+  width: 100%;
+  max-height: 702px;
+  padding-top: 80px;
+}
+
+@media screen and (max-width:767px) {
+  .slider__item {
+    padding-top: 40px;
+  }
+}

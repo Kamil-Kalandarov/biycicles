@@ -1,0 +1,18 @@
+.header__link {
+  font: $textLinks;
+  color: $primaryTitleFontColor;
+  padding-right: 34px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  text-decoration: none;
+  transition: opacity 0.5s linear;
+  display: block;
+}
+
+ .header__link:last-child {
+   padding-right: 120px;
+ }
+
+ .header__link:hover {
+  opacity: 75%;
+ }

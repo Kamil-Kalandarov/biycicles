@@ -1,0 +1,13 @@
+.form__button {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 28px;
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  z-index: 1;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}

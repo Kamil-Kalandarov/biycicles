@@ -1,0 +1,41 @@
+.lead__fade-in-container {
+  height: 430px;
+  position: absolute;
+  top: 420px;
+  right: 25.7vw;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__fade-in-container {
+    top: 450px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__fade-in-container {
+    height: 400px;
+    left: 30vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__fade-in-container {
+    left: 50px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .lead__fade-in-container {
+    top: 350px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .lead__fade-in-container {
+    height: 100px;
+  }
+}
+
+

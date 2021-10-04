@@ -1,0 +1,13 @@
+.bycicles__tt {
+  font: $textCardsButtons;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: $primaryContentFontColor;
+  opacity: 70%;
+}
+
+.bycicles__tt:hover {
+  opacity: 100%;
+}

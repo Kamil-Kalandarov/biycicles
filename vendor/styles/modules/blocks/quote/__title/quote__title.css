@@ -1,0 +1,23 @@
+.quote__title {
+  max-width: 470px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .quote__title {
+    font-size: 23px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .quote__title {
+    padding-bottom: 40px;
+  }
+}

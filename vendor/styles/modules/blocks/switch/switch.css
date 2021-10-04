@@ -1,0 +1,12 @@
+.switch {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  align-self: flex-end;
+}
+
+@media screen and (max-width:767px) {
+  .switch {
+    display: none;
+  }
+}

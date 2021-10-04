@@ -1,0 +1,13 @@
+.slider-cards__pagination {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .slider-cards__pagination {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}

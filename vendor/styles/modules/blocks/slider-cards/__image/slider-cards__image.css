@@ -1,0 +1,10 @@
+.slider-cards__image {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
