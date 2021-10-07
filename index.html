@@ -2,8 +2,7 @@
 <html lang="ru">
 
 <head>
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
-  <link rel="stylesheet" href="./vendor/styles/index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Kamil">
@@ -12,9 +11,11 @@
 </head>
 <body class="page">
   <header class="header">
-    <a class="header__link" href="#gallary">Покрытия и градиенты</a>
-    <a class="header__link" href="#bycicles">Велосипеды</a>
-    <a class="header__link" href="#service">Тренировки</a>
+    <nav class=" header__nav">
+      <a class="header__link" href="#gallary">Покрытия и градиенты</a>
+      <a class="header__link" href="#bycicles">Велосипеды</a>
+      <a class="header__link" href="#service">Тренировки</a>
+    </nav>
   </header>
   <main class="content">
     <section class="lead">
@@ -87,9 +88,9 @@
         </div>
       </div>
       <select class="bycicles__select">
-        <option value="road">Шоссе</option>
-        <option value="gravel">Грэвел</option>
-        <option value="tt">TT</option>
+        <option class="bycicles__road value=" value="road">Шоссе</option>
+        <option class="bycicles__gravel" value="gravel">Грэвел</option>
+        <option class="bycicles__tt" value="tt">TT</option>
       </select>
       <div class="slider-cards-container">
       </div>
@@ -106,7 +107,7 @@
     </section>
     <footer class="footer">
       <h3 class="footer__title">Подпишитесь на рассылку —</h3>
-      <form class="form">
+      <form class="form" name="form">
         <input class="form__input-email" type="email" name="form__input-email" placeholder="Ваш e-mail">
         <button class="form__button" type="submit">ok</button>
       </form>

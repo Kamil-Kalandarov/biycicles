@@ -145,6 +145,7 @@ switcher.addEventListener('click',(e) => {
   buttonRoad.classList.toggle('bycicles__road_them_dark');
   buttonGravel.classList.toggle('bycicles__gravel_them_dark');
   buttonTT.classList.toggle('bycicles__tt_them_dark');
+  selectCards.classList.toggle('bycicles__select_them_dark');
   sliderArrowLeft.classList.toggle('slider__button-prev_them_dark');
   sliderArrowRight.classList.toggle('slider__button-next_them_dark');
   quoteTitle.classList.toggle('quote__title_them_dark');
