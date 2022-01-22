@@ -1,0 +1,25 @@
+.title-of-section {
+  font: $titleOfSectionDescktop;
+  color: $primaryTitleFontColor;
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .title-of-section {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .title-of-section {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title-of-section {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

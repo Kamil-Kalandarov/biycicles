@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+  .slider-cards-container {
+    padding-bottom: 80px;
+    border-bottom: 1px solid #E3E3E3;
+  }
+}

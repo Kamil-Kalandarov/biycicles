@@ -1,0 +1,7 @@
+.slider__wrapper { 
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

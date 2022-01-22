@@ -1,0 +1,15 @@
+.footer__copyright {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #cfcfcf;
+  padding-top: 100px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright-email {
+    padding-top: 99px;
+  }
+}

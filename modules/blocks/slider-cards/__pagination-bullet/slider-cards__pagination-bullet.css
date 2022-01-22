@@ -1,0 +1,9 @@
+.slider-cards__pagination-bullet {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #cacaca;
+  opacity: 100%;
+  display: block;
+  cursor: pointer;
+}

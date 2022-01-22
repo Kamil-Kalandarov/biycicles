@@ -1,0 +1,13 @@
+.quote {
+  display: flex;
+  gap: 80px;
+  padding: 120px 120px 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .quote {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 18px 80px;
+  }
+}

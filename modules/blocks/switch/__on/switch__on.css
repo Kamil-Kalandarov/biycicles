@@ -1,0 +1,7 @@
+.switch__on {
+  background: #545454;
+}
+.switch__on::after {
+  left: 22px;
+  background: #24b47e;
+}

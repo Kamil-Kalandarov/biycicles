@@ -1,0 +1,51 @@
+.lead__button {
+  min-width: 180px;
+  max-height: 50px;
+  font: 600 14px/18px 'Inter', Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: #24b47e;
+  border-radius: 4px;
+  border-style: none;
+  padding: 16px 10px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.lead__button::before {
+  content: '';
+  top: 0;
+	left: 0;
+	width: 0;
+	height: 50px;
+  background: linear-gradient(#319E75, #319E75);
+  transition: all 1s ease;
+  position: absolute;
+  z-index: -1;
+}
+
+.lead__button:hover:before {
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__button {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__button {
+    order: 4;
+    min-width: 284px;
+    max-height: 48px;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 14px 62px 13px;
+    margin: 0;
+  }
+  .lead__button::before {
+    height: 46px;
+  }
+}

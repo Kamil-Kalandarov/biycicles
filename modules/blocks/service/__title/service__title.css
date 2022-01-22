@@ -1,0 +1,12 @@
+.service__title {
+  grid-column: 1/2;
+  max-width: 460px;
+  max-height: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .service__title {
+    padding-bottom: 40px;
+    grid-row: 1/2;
+  }
+}

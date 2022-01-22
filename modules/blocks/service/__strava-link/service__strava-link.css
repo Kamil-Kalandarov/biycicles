@@ -1,0 +1,21 @@
+.service__strava-link {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  max-height: 28px;
+  text-decoration: none;
+  color: #151515;
+  cursor: pointer;
+}
+
+.service__strava-link:hover {
+  opacity: 75%;
+}
+
+@media screen and (max-width: 767px) {
+  .service__strava-link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

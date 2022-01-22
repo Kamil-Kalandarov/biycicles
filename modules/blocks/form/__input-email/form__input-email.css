@@ -1,0 +1,25 @@
+.form__input-email {
+  width: 360px;
+  height: 50px;
+  padding: 11px 0 11px 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #C7C7C780;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #222222;
+  opacity: 70%;
+}
+
+.form__input-email:hover {
+  opacity: 100%;
+  color: #151515;
+}
+
+@media screen and (max-width: 767px) {
+  .form__input-email {
+    width: 284px;
+  }
+}

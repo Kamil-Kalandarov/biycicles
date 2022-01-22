@@ -1,0 +1,13 @@
+.gallary {
+  display: grid;
+  padding-left: 120px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:767px) {
+  .gallary {
+    display: block;
+    padding: 0 18px;
+    position: relative;
+  }
+}

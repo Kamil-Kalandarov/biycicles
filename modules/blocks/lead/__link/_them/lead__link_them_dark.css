@@ -1,0 +1,8 @@
+.lead__link_them_dark {
+  color: #fff;
+}
+
+.lead__link_them_dark::after {
+  background-color: #707070;
+  border-left: 30px solid #333333;
+}

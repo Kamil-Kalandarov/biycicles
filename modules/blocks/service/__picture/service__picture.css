@@ -1,0 +1,12 @@
+.service__picture {
+  width: 100%;
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+@media screen and (max-width: 767px) {
+  .service__picture {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}

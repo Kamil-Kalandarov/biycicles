@@ -1,0 +1,12 @@
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1440px;
+  max-height: 74px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__nav {
+    display: none;
+  }
+}

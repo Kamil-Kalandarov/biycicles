@@ -1,0 +1,19 @@
+.slider__button-prev {
+  background: #ebebeb url(../../../../../../images/arrow-left.svg) 50% no-repeat;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.slider__button-prev:hover {
+  opacity: 60%;
+}
+
+@media screen and (max-width: 767px) {
+  .slider__button-prev {
+    height: 24px;
+    width: 24px;
+    background-size: 7px 16px;
+  }
+};

@@ -1,0 +1,33 @@
+.lead__fade-in {
+  width: 440px;
+  height: 300px;
+  background-image: url(../../../../../../images/fade-in.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #F4F4F4;
+  border-radius: 20px;
+  box-shadow: -20px 60px 130px #000;
+  position: sticky;
+  top: 347px;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__fade-in {
+    width: 350px;
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__fade-in {
+    width: 234px;
+    height: 160px;
+  }
+}
+
+
+
+
+

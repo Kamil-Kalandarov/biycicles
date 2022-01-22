@@ -1,0 +1,13 @@
+.service__links {
+  max-width: 154px;
+  display: flex;
+  gap: 30px;
+  grid-column: 1/2;
+}
+
+@media screen and (max-width: 767px) {
+  .service__links {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+}

@@ -1,0 +1,22 @@
+.quote__author-name {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+@media screen and (max-width: 1279px) {
+  .quote__author-name {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .quote__author-name {
+    padding-bottom: 4px;
+  }
+}

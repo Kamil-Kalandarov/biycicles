@@ -1,0 +1,27 @@
+.service {
+  display: grid;
+  column-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0fr 2fr;
+  padding: 210px 120px 60px;
+}
+
+@media screen and (max-width: 1279px) {
+  .service {
+    column-gap: 160px;
+    padding-top: 120px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .service {
+    column-gap: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .service {
+    grid-template-columns: 1fr;
+    padding: 40px 18px 80px;
+  }
+}
