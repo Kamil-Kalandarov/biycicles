@@ -25,7 +25,7 @@
 - запустите локальный сервер, кликнув в нижнем левом углу Go live
 - выбирайте себе велосипед
 
-## <a name='link-to-project'>**ссылка на Demo проекта [biycicles](https://kamil-kalandarov.github.io/react-burger/)**>
+## <a name='link-to-project'>**ссылка на Demo проекта [biycicles](https://github.com/Kamil-Kalandarov/biycicles)**>
 
 ## <a name='contacts'>**Мои контакты:**</a>
 [<img src="https://img.shields.io/badge/Telegram-696969?style=for-the-badge&logo=Telegram&logoColor=#F7DF1E">](https://t.me/Kamil_Kalandarov) 
