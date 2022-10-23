@@ -1,7 +1,7 @@
 .lead__fade-in {
   width: 440px;
   height: 300px;
-  background-image: url(../../../../../../images/fade-in.jpg);
+  background-image: '../../../../images/fade-in.jpg';
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
