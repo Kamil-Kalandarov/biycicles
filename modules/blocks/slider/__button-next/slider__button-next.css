@@ -1,9 +1,17 @@
 .slider__button-next {
-  background: #ebebeb url(../../../../../../images/arrow-right.svg) 50% no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ebebeb;
   border-radius: 50%;
   height: 50px;
   width: 50px;
   cursor: pointer;
+}
+
+.slider__button-prev img {
+  width: 10px;
+  height: 18px;
 }
 
 .slider__button-next:hover {

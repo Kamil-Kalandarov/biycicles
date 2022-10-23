@@ -74,13 +74,13 @@ const createCards = data => {
     const sliderContainer = sliderTemplate.querySelector('.slider-cards').cloneNode(true);
     const sliderWrapper = sliderContainer.querySelector('.slider-cards__wrapper');
     data.forEach(item => {
-    const cardElement = slideTemplate.querySelector('.slider-cards__slide').cloneNode(true);
-    const cardTitle = cardElement.querySelector('.slider-cards__title');
-    cardTitle.textContent = item.title;
-    const cardImage = cardElement.querySelector('.slider-cards__image');
-    cardImage.src = item.src;
-    sliderWrapper.append(cardElement);
-    ContainerForSlider.append(sliderContainer);
+      const cardElement = slideTemplate.querySelector('.slider-cards__slide').cloneNode(true);
+      const cardTitle = cardElement.querySelector('.slider-cards__title');
+      cardTitle.textContent = item.title;
+      const cardImage = cardElement.querySelector('.slider-cards__image');
+      cardImage.src = item.src;
+      sliderWrapper.append(cardElement);
+      ContainerForSlider.append(sliderContainer);
   });
   const cardsSwiper = new Swiper('.slider-cards', {
     pagination: {
@@ -146,8 +146,6 @@ switcher.addEventListener('click',(e) => {
   buttonGravel.classList.toggle('bycicles__gravel_them_dark');
   buttonTT.classList.toggle('bycicles__tt_them_dark');
   selectCards.classList.toggle('bycicles__select_them_dark');
-  sliderArrowLeft.classList.toggle('slider__button-prev_them_dark');
-  sliderArrowRight.classList.toggle('slider__button-next_them_dark');
   quoteTitle.classList.toggle('quote__title_them_dark');
   quoteAuthorName.classList.toggle('quote__author-name_them_dark');
   quoteAuthorAbout.classList.toggle('quote__author-about_them_dark');

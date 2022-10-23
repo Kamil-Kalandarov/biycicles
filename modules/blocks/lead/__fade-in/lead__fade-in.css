@@ -1,10 +1,8 @@
 .lead__fade-in {
+  display: flex;
+  justify-content: center;
   width: 440px;
   height: 300px;
-  background-image: '../../../../images/fade-in.jpg';
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   background-color: #F4F4F4;
   border-radius: 20px;
   box-shadow: -20px 60px 130px #000;
