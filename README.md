@@ -1,4 +1,4 @@
-**<h1 align='center'>biycicles</h1>**
+**<h1 align='center'>bicycles</h1>**
 **<h2 align='center'>Реклама различных видов велосипедов</h2>**
 
 ## **Оглавление:**
